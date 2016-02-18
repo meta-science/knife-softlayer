@@ -1,3 +1,0 @@
-[submodule "lib/fog-softlayer"]
-	path = lib/fog-softlayer
-	url = git@github.com:meta-science/fog-softlayer.git
