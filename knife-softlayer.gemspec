@@ -8,8 +8,8 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'knife-softlayer/version'
 $:.push File.expand_path('../lib/fog-softlayer/lib', __FILE__)
+require 'knife-softlayer/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "knife-softlayer"
@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(spec|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "fog-softlayer", "~> 0.3.30"
+  #spec.add_dependency "fog-softlayer", "~> 0.3.30"
   spec.add_dependency "knife-windows", "> 0.5.12"
   spec.add_dependency "net-ssh", "> 2.8.0"
   
