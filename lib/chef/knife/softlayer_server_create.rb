@@ -47,8 +47,7 @@ class Chef
       option :ram,
         :long => '--ram VALUE',
         :short => '-R VALUE',
-        :description => 'The number of virtual cores SoftLayer will assign to the VM instance.'
-
+        :description => 'virtual machine memory in MB.'
 
       option :block_storage,
         :long => '--block-storage VALUE',
